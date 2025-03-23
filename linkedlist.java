@@ -10,7 +10,7 @@ public class LinkedList {
     // Adds a new node at the beginning of the list
     public void insertAtBeginning(int data) {
         Node newNode = new Node(data);  // Create a new node
-        newNode.next = head;            // Link the new node to the current head
+        newNode.next = head;            // Point the new node to the current head
         head = newNode;                 // Update the head to the new node
         System.out.println("Adding a node at the beginning of the list with data " + data);
         display();  // Show the updated list
