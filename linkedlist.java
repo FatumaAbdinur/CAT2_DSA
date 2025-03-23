@@ -1,9 +1,9 @@
-// LinkedList.java
-public class LinkedList {
+// linkedlist.java
+public class linkedlist {
     private Node head;  // The starting point of the linked list
 
     // Constructor to initialize an empty linked list
-    public LinkedList() {
+    public linkedlist() {
         this.head = null;  // Initially, the list is empty
     }
 

@@ -1,7 +1,7 @@
 // Main.java
 public class Main {
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();  // Create a new linked list
+        linkedlist list = new linkedlist();  // Create a new linked list
 
         // Add nodes to the beginning of the list
         list.insertAtBeginning(1);
